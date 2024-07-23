@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aquamarine;
+        }
+
+        .especial {
+            background-color: rgb(255, 141, 141);
+        }
+
+        .especial::before {
+            content: '⇒';
+        }
+
+        .especial::after {
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizanos links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/_gusttavo013/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/" class="especial">youtube</a></li>
+        <li><a href="https://www.instagram.com/_gusttavo013/">Instagram</a></li>
+    </ul>
+</body>
+</html>
